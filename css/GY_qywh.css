@@ -145,7 +145,7 @@ td {
 
 #conZ {
 	width: 100%;
-	height: 2694px;
+	height: 1644px;
 }
 
 #content {
@@ -178,20 +178,29 @@ td {
 .content-first-child div {
 	float: left;
 	width: 110px;
-	text-align: center;
+	/*text-align: center;*/
 	line-height: 50px;
 	margin: 0 20px;
 }
 
-.content-first-child div a {
+.content-first-child a {
 	text-align: left;
 	text-decoration: none;
 	color: black;
 	font-size: 20px;
 	font-family: "黑体";
 }
+#content-childthree-span{
+	width: 10px;
+	height: 10px;
+	display: inline-block;
+	border-radius: 10px;
+	border: 3px #f5804b solid;
+	margin: 0 2 -5px 0;	
+}
 
-.content-first-child div span {
+
+.content-first-child .content-childone-span{
 	width: 10px;
 	height: 10px;
 	display: inline-block;
@@ -201,15 +210,17 @@ td {
 	margin: 0 2 -5px 0;
 }
 
-.content-first-child div:hover span {
+.content-first-child div:hover .content-childone-span{
 	border: 3px #f5804b solid;
 	opacity: 1.0;
 }
 
+
+/*******************content2***********************/
+
 #content2 {
 	width: 100%;
-	height: 2160px;
-	background: #E3E3E3;
+	height: 1110px;
 }
 
 .content2-One {
@@ -241,123 +252,62 @@ td {
 	color: orange;
 }
 
+
+/*******************content2-Two***********************/
+
 .content2-Two {
-	padding-top: 90px;
-	width: 930px;
-	height: 1720px;
+	width: 100%;
+	height: 740px;
 	margin: 0 auto;
 }
 
-.content2-Two-Son1 {
-	float: left;
-	width: 900px;
-	height: 500px;
-	margin-bottom: 70px;
-	background-color: #FFFFFF;
-}
-
-.content2-Two-Son1 .Son1-d1 {
-	margin: 80px 0 0 50px;
+.content_middle_One{
 	width: 300px;
-	float: left;
+	height: 68px;
+	margin: 0 auto 40px; 
+	text-align: center;	
+}
+.content_middle_One .bt_a1{
+	font-size: 48px;
+	font-family: '宋体'; 
+	letter-spacing: 3px;
+	display: block;
+	color: #666666;
+	opacity: 0.2;
 }
 
-.Son1-d1 h1 {
-	text-align: center;
-	margin-bottom: 55px;
-	font-size: 40px;
+.content_middle_One .bt_a2{
+	font-size: 38px;
+	display: block;
+	margin-top: -40px;
 	font-weight: 900;
-	font-family: '微软雅黑';
 }
 
-.Son1-d1 p {
-	line-height: 40px;
-	font-family: "黑体";
-	font-size: 24px;
-	line-height: 30px;
-}
 
-.content2-Two-Son1 .Son1-d2 {
-	float: right;
-}
-
-.content2-Two-Son1:hover .Son1-d2 img {
-	box-shadow: 3px 3px 15px #333333, 5px -3px 15px #333333;
-}
-
-.content2-Two-Son2 {
-	float:right;
-	width: 900px;
+#ZjBettle{
+	width: 100%; 
+	margin-top:40px;
 	height: 500px;
-	margin-bottom: 70px;
-	background-color: #FFFFFF;
+	padding: 30px; 
+	background-image: url(../img/GuanYu/GuanYu_GY_02.png) ;
 }
-
-.content2-Two-Son2 .Son2-d1 {
-	margin: 155px 50px 0 0;
-	width: 300px;
-	float: right;
-}
-
-.Son2-d1 h1 {
-	text-align: center;
-	margin-bottom: 55px;
-	line-height: 20px;
-	font-size: 40px;
-	font-weight: 900;
-	font-family: '微软雅黑';
-}
-
-.Son2-d1 p {
-	line-height: 40px;
-	font-family: "黑体";
-	font-size: 24px;
-	line-height: 30px;
-}
-
-.content2-Two-Son2 .Son2-d2 {
-	float: left;
-}
-
-.content2-Two-Son2:hover .Son2-d2 img {
-	box-shadow: -5px 3px 15px #333333, -3px -3px 15px #333333;
-}
-
-.content2-Two-Son3 {
-	float: left;
+#ZjBettle dl{
 	width: 900px;
-	height: 500px;
-	margin-bottom: 70px;
-	background-color: #FFFFFF;
+	height: 300px;
+	list-style: none; 
+	margin: 120px auto 80px;
 }
-
-.content2-Two-Son3 .Son3-d1 {
-	margin: 80px 0 0 50px;
-	width: 300px;
+#ZjBettle dt{
+	font-size: 26px;
+	font-family: '宋体';
+	font-weight: 600;
 	float: left;
 }
-
-.Son3-d1 h1 {
-	text-align: center;
-	margin-bottom: 55px;
-	font-size: 40px;
-	font-weight: 900;
-	font-family: '微软雅黑';
-}
-
-.Son3-d1 p {
-	line-height: 40px;
-	font-family: "黑体";
-	font-size: 24px;
-	line-height: 30px;
-}
-
-.content2-Two-Son3 .Son3-d2 {
-	float: right;
-}
-
-.content2-Two-Son3:hover .Son3-d2 img {
-	box-shadow: 3px 3px 15px #333333, 5px -3px 15px #333333;
+#ZjBettle dl{
+	letter-spacing: 2px;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 48px;
 }
 
 
@@ -365,6 +315,9 @@ td {
 
 
 
+
+
+/************************底部******  *****/
 #bottom{
 	width: 100%;
     height: 250px;
@@ -394,10 +347,8 @@ td {
 	color: #fff;
 	margin-top: 10px;
 }
-
-
 .bottomZ2{
-	width: 150px;
+	width: 155px;
 	height: 100px;
 	/*background-color: red;*/
 	float: right;
@@ -419,12 +370,13 @@ td {
 	color: orange;
 }
 .bottomZ2-Wl{
+	
 	margin-top: 10px;
 }
 .bottomZ2-Wl span{
 	display: inline-block;
 	width: 25px;
-	margin: 10px 9px;
+	margin: 10px 11px;
 	cursor: pointer;
 }
 .bottomZ2-Wl dt{
@@ -432,7 +384,7 @@ td {
 }
 .bottomZ2-Wl dd{
 	margin-top: 10px;
-	margin-left: px;
+	margin-left: 1px;
 	font-size: 10px;
 	color: #FFFFFF;
 }
