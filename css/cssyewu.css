@@ -148,7 +148,7 @@ ul{
 	height: 18px;
 	width: 18px;
 	border-radius:100% ;
-	
+	opacity: 0.0;
 	border: 5px #ffffff solid;
 	display: inline-block;
 	margin-bottom:-5px ;
@@ -157,6 +157,7 @@ ul{
 }
 #huikuangzi div:hover span{
 	border: 5px #f5804b solid;
+	opacity: 1.0;
 }
 .zi{
 	float: left;
