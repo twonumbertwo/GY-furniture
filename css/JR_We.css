@@ -145,7 +145,7 @@ td {
 
 #conZ {
 	width: 100%;
-	height: 1898px;
+	height: 2694px;
 }
 
 #content {
@@ -158,66 +158,12 @@ td {
 	height: 534px;
 }
 
-.content-first-child{
-	z-index: 5;
-	position: relative;
-	width: 500px;
-	height: 50px;
-	background: #fff;
-	border-radius: 30px;
-}
 
-.content-first-child {
-	background: rgba(255, 255, 255, 0.6);
-	padding: 0 30px;
-	bottom: 207px;
-	left: 425px;
-	list-style: none;
-}
-
-.content-first-child div {
-	float: left;
-	width: 110px;
-	text-align: center;
-	line-height: 50px;
-	margin: 0 20px;
-}
-
-.content-first-child div a {
-	text-align: left;
-	text-decoration: none;
-	color: black;
-	font-size: 20px;
-	font-family: "黑体";
-}
-#content-childtwo-span{
-	width: 10px;
-	height: 10px;
-	display: inline-block;
-	border-radius: 10px;
-	border: 3px #f5804b solid;
-	margin: 0 2 -5px 0;	
-}
-
-
-.content-first-child .content-childone-span{
-	width: 10px;
-	height: 10px;
-	display: inline-block;
-	border-radius: 10px;
-	border: 3px #FFFFFF solid;
-	opacity: 0.0;
-	margin: 0 2 -5px 0;
-}
-
-.content-first-child div:hover .content-childone-span{
-	border: 3px #f5804b solid;
-	opacity: 1.0;
-}
-
+/***************content2********************/
 #content2 {
 	width: 100%;
-	height: 1364px;
+	height: 2160px;
+	background: #E3E3E3;
 }
 
 .content2-One {
@@ -250,46 +196,124 @@ td {
 }
 
 .content2-Two {
-	
+	padding-top: 90px;
 	width: 930px;
-	height: 1020px;
+	height: 1720px;
 	margin: 0 auto;
 }
-.content_middle{
-	text-align: center;
-}
-.content_middle_One div{
-	display: inline-block;
-	width: 300px;
-	height: 68px;
-	margin: 5px auto 70px;
-	text-align: center;
 
+.content2-Two-Son1 {
+	float: left;
+	width: 900px;
+	height: 500px;
+	margin-bottom: 70px;
+	background-color: #FFFFFF;
 }
-.content_middle_One div .bt_a1{
-	letter-spacing: 3px;
-	display: block;
-	font-size: 48px;
-	font-family: "宋体";
-	color: #666666;
-	opacity: 0.2;
+
+.content2-Two-Son1 .Son1-d1 {
+	margin: 80px 0 0 50px;
+	width: 300px;
+	float: left;
 }
-.content_middle_One div .bt_a2{
-	position: relative;
-	display: block;
-	margin-top: -40px;
-	font-size: 38px;
+
+.Son1-d1 h1 {
+	text-align: center;
+	margin-bottom: 55px;
+	font-size: 40px;
 	font-weight: 900;
+	font-family: '微软雅黑';
 }
-.content_middle_Two pre{
-	letter-spacing: 2.6px;
-	font-size: 16px;
-	font-weight: 600;
-	color: #333333;
-	line-height: 25px;
-	text-align: left;
-	margin-bottom: 65px;
+
+.Son1-d1 p {
+	line-height: 40px;
+	font-family: "黑体";
+	font-size: 24px;
+	line-height: 30px;
 }
+
+.content2-Two-Son1 .Son1-d2 {
+	float: right;
+}
+
+.content2-Two-Son1:hover .Son1-d2 img {
+	box-shadow: 3px 3px 15px #333333, 5px -3px 15px #333333;
+}
+
+.content2-Two-Son2 {
+	float:right;
+	width: 900px;
+	height: 500px;
+	margin-bottom: 70px;
+	background-color: #FFFFFF;
+}
+
+.content2-Two-Son2 .Son2-d1 {
+	margin: 155px 50px 0 0;
+	width: 300px;
+	float: right;
+}
+
+.Son2-d1 h1 {
+	text-align: center;
+	margin-bottom: 55px;
+	line-height: 20px;
+	font-size: 40px;
+	font-weight: 900;
+	font-family: '微软雅黑';
+}
+
+.Son2-d1 p {
+	line-height: 40px;
+	font-family: "黑体";
+	font-size: 24px;
+	line-height: 30px;
+}
+
+.content2-Two-Son2 .Son2-d2 {
+	float: left;
+}
+
+.content2-Two-Son2:hover .Son2-d2 img {
+	box-shadow: -5px 3px 15px #333333, -3px -3px 15px #333333;
+}
+
+.content2-Two-Son3 {
+	float: left;
+	width: 900px;
+	height: 500px;
+	margin-bottom: 70px;
+	background-color: #FFFFFF;
+}
+
+.content2-Two-Son3 .Son3-d1 {
+	margin: 80px 0 0 50px;
+	width: 300px;
+	float: left;
+}
+
+.Son3-d1 h1 {
+	text-align: center;
+	margin-bottom: 55px;
+	font-size: 40px;
+	font-weight: 900;
+	font-family: '微软雅黑';
+}
+
+.Son3-d1 p {
+	line-height: 40px;
+	font-family: "黑体";
+	font-size: 24px;
+	line-height: 30px;
+}
+
+.content2-Two-Son3 .Son3-d2 {
+	float: right;
+}
+
+.content2-Two-Son3:hover .Son3-d2 img {
+	box-shadow: 3px 3px 15px #333333, 5px -3px 15px #333333;
+}
+
 
 
 
@@ -327,7 +351,7 @@ td {
 
 
 .bottomZ2{
-	width: 155px;
+	width: 150px;
 	height: 100px;
 	/*background-color: red;*/
 	float: right;
@@ -349,13 +373,12 @@ td {
 	color: orange;
 }
 .bottomZ2-Wl{
-	
 	margin-top: 10px;
 }
 .bottomZ2-Wl span{
 	display: inline-block;
 	width: 25px;
-	margin: 10px 11px;
+	margin: 10px 9px;
 	cursor: pointer;
 }
 .bottomZ2-Wl dt{
@@ -363,7 +386,7 @@ td {
 }
 .bottomZ2-Wl dd{
 	margin-top: 10px;
-	margin-left: 1px;
+	margin-left: px;
 	font-size: 10px;
 	color: #FFFFFF;
 }
