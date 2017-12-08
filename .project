@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
+<<<<<<< HEAD
 	<name>GY_furniture</name>
+=======
+	<name>1组</name>
+>>>>>>> 4b3cabd4312d171f24f4b95e76b083f9fbcdb4e1
 	<comment></comment>
 	<projects>
 	</projects>
@@ -16,7 +20,11 @@
 	</natures>
 	<filteredResources>
 		<filter>
+<<<<<<< HEAD
 			<id>1512700023570</id>
+=======
+			<id>1512697819942</id>
+>>>>>>> 4b3cabd4312d171f24f4b95e76b083f9fbcdb4e1
 			<name></name>
 			<type>26</type>
 			<matcher>
