@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+=======
 *{
 	margin: 0;
 	padding: 0;
@@ -11,12 +13,18 @@
 	margin: 0;
 	padding: 0;
 }
+>>>>>>> 63b4e28f3fef7647ca530d8f2b514038239f7f8a
 #bigHead{
 	width: 100%;
 	height: 194px;
 }
 
 
+<<<<<<< HEAD
+
+
+=======
+>>>>>>> 63b4e28f3fef7647ca530d8f2b514038239f7f8a
 .header{
 	width: 100%;
 	height: 144px;
@@ -82,6 +90,11 @@
 }
 
 
+<<<<<<< HEAD
+
+
+=======
+>>>>>>> 63b4e28f3fef7647ca530d8f2b514038239f7f8a
 .header1{
 	width: 100%;
 	height: 50px;
@@ -97,15 +110,131 @@
 }
 .header1-Son a{
 	text-decoration: none;
+<<<<<<< HEAD
+	color: #333333;
+	margin-left: 75px;
+	line-height: 50px;
+	font-weight: 400;
+=======
 	margin-left: 75px;
 	line-height: 50px;
 	font-weight: 400;
 	color: #333;
+>>>>>>> 63b4e28f3fef7647ca530d8f2b514038239f7f8a
 }
 .header1-Son a:hover{
 	color: orange;
 }
 
+<<<<<<< HEAD
+
+.yewu{
+	width: 444px;
+	height: 200px;
+margin-left: 28px;
+}
+.abiao{
+	color: #000000;
+	text-decoration: none;
+	font-size: 60px;
+	position: relative;
+		left:-26px ;
+		top:-12px;
+		font-family: "黑体";
+		font-weight: 900;
+}
+
+.img{
+	width: 30%;
+	margin: 50px 50px;
+}
+#guanyuGY{
+	width: 100%;
+	height: 954px;
+	background: #e3e3e3;
+	text-align: center;
+}
+#zuoce{
+	height: 531px;
+	width: 315px;
+	float: left;
+	font-size: 14px;
+	margin-left: 222px;
+	background: #FEFBF2;
+	text-align: center;
+}
+#youce{
+	width: 600px;
+	float: right;
+	margin-right: 206px;
+}
+#tuo{
+	width: 915px;
+	margin-left: 222px;
+	padding-left: 5px;
+}
+.kongbai{
+	height: 594px;
+}
+#tuo{
+	margin: 0 auto;
+}
+#zixun{
+	width:905px;
+	height: 900px;
+}
+.zixun{
+	width: 412px;
+	height: 320px;	
+	position: relative;
+	top: -333px;
+	left: -242px;
+	z-index: 2px;
+}
+.zhongxin{
+	width: 500px;
+	height: 340px;
+	float: right;
+	
+	background: #E3E3E3;
+}
+#xin{
+	width:493px ;
+	height: 100px;
+	background: floralwhite;
+	position: relative;
+	top: 115px;
+	text-align: center;
+}
+.zhongxin1{
+	width: 415px;
+	height: 396px;
+	margin-left: -480px;
+	margin-top: 5px;
+	background: #E3E3E3; 
+}
+.zhongxin1 #xin{
+	width:493px ;
+	height: 100px;
+	background: floralwhite;
+
+	text-align: center;
+}
+.zhongxin1 #xin span{
+	font-size: 30px;
+	font-family: "黑体";
+}
+.zhongxin2 #xin{
+	width:415px ;
+	height: 100px;
+	background: floralwhite;
+
+	text-align: center;
+}
+.zhongxin1 #xin span{
+	font-size: 30px;
+	font-family: "黑体";
+=======
 #huikuangzi a {
 	font-size:23px;
 	font-family: "微软雅黑";
@@ -328,4 +457,5 @@ a{
 }
 #ywzj5:hover .ywzjz2 a{
 	color: #fd8c3d;
+>>>>>>> 63b4e28f3fef7647ca530d8f2b514038239f7f8a
 }
