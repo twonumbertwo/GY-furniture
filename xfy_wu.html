@@ -2,8 +2,17 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
+		<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<meta name="keywords" content="百度地图,百度地图API，百度地图自定义工具，百度地图所见即所得工具" />
+<meta name="description" content="百度地图API自定义地图，帮助用户在可视化操作下生成百度地图" />
 		<title></title>
 		<link rel="stylesheet" type="text/css" href="css/xfy_wu.css"/>
+		<style type="text/css">
+    html,body{margin:0;padding:0;}
+    .iw_poi_title {color:#CC5522;font-size:14px;font-weight:bold;overflow:hidden;padding-right:13px;white-space:nowrap}
+    .iw_poi_content {font:12px arial,sans-serif;overflow:visible;padding-top:4px;white-space:-moz-pre-wrap;word-wrap:break-word}
+</style>
+<script type="text/javascript" src="http://api.map.baidu.com/api?key=&v=1.1&services=true"></script>
 	</head>
 	<body>
 		<div id="bigHead">
@@ -37,24 +46,103 @@
 							<a href="#">我们的业务</a>
 						</div>
 					</div>
-				</div>
-				
-				<!---//////////////////////////////////////////////////////-->
 				<div class="content-first">
-						<img src="img/We_YW/We_YW_05.png" width="100%" />
+						<img src="img/We_YW/We_YW_05.png" width="100%" height="700px	" />
 						<div class="content-first-child">
 							<div class="content-first-childone"><span class="content-childone-span"></span>
-								<a href="#">购物攻略</a>
+								<a href="#">品牌历史</a>
 							</div>
 							<div class="content-first-childtwo"><span id="content-childtwo-span"></span>
-								<a href="#">自助反馈</a>
+								<a href="#">公司简介</a>
 							</div>
 							<div class="content-first-childthree"><span class="content-childone-span"></span>
-								<a href="#">联系我们</a>
+								<a href="#">企业文化</a>
 							</div>
 						</div>
+					</div>
 				
-				
+				<div id="quanbu">
+					<div style="height: 50px;">
+							<span style="font-size: 17px;position: relative;left:-227px;top: 31px;">
+							<a href="#" style="text-decoration: none;color: #000000;">首页》我们的服务》购物攻略</a>	
+							</span>
+							<span style="font-size: 30px;font-weight: 600; position: relative;left: -34px;top: 107px;">
+								联系我们
+							</span>
+								</div>
+					
+					<div id="toubu">
+						
+						
+						
+						<div id="toubu1">
+							<div>
+							<img src="img/TuBiao/TuBiao_7.png" width="30px"/>
+							<span style="font-size: 18px;font-weight: 400;">
+								&nbsp;&nbsp; 全国统一热线:300-8800-413
+							</span>
+								
+							</div>
+							<div>
+								<img src="img/TuBiao/TuBiao_4.png" width="30px"/>
+							<span style="font-size: 18px;font-weight: 400;">
+								&nbsp;&nbsp; 地址:山西省太原市南内环长治路恒地大厦26层
+							</span>
+								
+							</div>
+							<div>
+								<img src="img/TuBiao/TuBiao_5.png" width="30px"/>
+							<span style="font-size: 18px;font-weight: 400;">
+								&nbsp;&nbsp; 邮编:611230
+							</span>
+								
+							</div>
+							
+							<div>
+								<img src="img/TuBiao/TuBiao_2.png" width="30px"/>
+							<span style="font-size: 18px;font-weight: 400;">
+								&nbsp;&nbsp; 电话:<span style="font-size: 18px;font-weight: 400;color: cornflowerblue;">86-28-67672828</span>
+									
+								</span>
+								
+							</div>
+							
+							<div>
+								<img src="img/TuBiao/TuBiao_3.png" width="30px"/>
+							<span style="font-size: 18px;font-weight: 400;">
+								&nbsp;&nbsp; 传真:<span style="font-size: 18px;font-weight: 400;color: cornflowerblue;">86-28-67672828</span>
+									
+								</span>
+								
+							</div>
+							
+							<div>
+								<img src="img/TuBiao/TuBiao_6.png" width="30px"/>
+							<span style="font-size: 18px;font-weight: 400;">
+								&nbsp;&nbsp; 邮箱:kf@gongyou.com.cn
+									
+								</span>
+								
+							</div>
+							
+							<div id="weixin">
+								<img src="img/LianXi/SanJi_LianXi_08.png"/><br />
+								<span style="font-size:22px;font-weight: 500;">官方微信</span><br />
+								关注获取更多
+							</div>
+							<div id="weibo">
+								<img src="img/LianXi/SanJi_LianXi_05.png"/><br />
+								<span style="font-size:22px;font-weight: 500;">官方微博</span><br />
+								进入了解更多
+							</div>
+						</div>
+					</div>
+					
+					
+					
+					<div style="position: relative;top: 280px;left: 121px; width:1080px;height:550px;border:#ccc solid 1px;" id="dituContent"></div>
+					
+				</div>
 				
 				
 				
@@ -91,4 +179,44 @@
 					</div>
 				</div>
 	</body>
+	<script type="text/javascript">
+    //创建和初始化地图函数：
+    function initMap(){
+        createMap();//创建地图
+        setMapEvent();//设置地图事件
+        addMapControl();//向地图添加控件
+    }
+    
+    //创建地图函数：
+    function createMap(){
+        var map = new BMap.Map("dituContent");//在百度地图容器中创建一个地图
+        var point = new BMap.Point(116.395645,39.929986);//定义一个中心点坐标
+        map.centerAndZoom(point,12);//设定地图的中心点和坐标并将地图显示在地图容器中
+        window.map = map;//将map变量存储在全局
+    }
+    
+    //地图事件设置函数：
+    function setMapEvent(){
+        map.enableDragging();//启用地图拖拽事件，默认启用(可不写)
+        map.enableScrollWheelZoom();//启用地图滚轮放大缩小
+        map.enableDoubleClickZoom();//启用鼠标双击放大，默认启用(可不写)
+        map.enableKeyboard();//启用键盘上下左右键移动地图
+    }
+    
+    //地图控件添加函数：
+    function addMapControl(){
+        //向地图中添加缩放控件
+	var ctrl_nav = new BMap.NavigationControl({anchor:BMAP_ANCHOR_TOP_LEFT,type:BMAP_NAVIGATION_CONTROL_LARGE});
+	map.addControl(ctrl_nav);
+        //向地图中添加缩略图控件
+	var ctrl_ove = new BMap.OverviewMapControl({anchor:BMAP_ANCHOR_BOTTOM_RIGHT,isOpen:1});
+	map.addControl(ctrl_ove);
+        //向地图中添加比例尺控件
+	var ctrl_sca = new BMap.ScaleControl({anchor:BMAP_ANCHOR_BOTTOM_LEFT});
+	map.addControl(ctrl_sca);
+    }
+    
+    
+    initMap();//创建和初始化地图
+</script>
 </html>

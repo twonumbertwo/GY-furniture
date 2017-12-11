@@ -246,3 +246,45 @@
 .bottomZ2-Wl span:hover dd{
 	color: orange;
 }
+#GY_fuwu{
+	height:800px;
+	background: #E3E3E3;
+	position: relative;
+	top: -54px;
+}
+#GY_fuwu1{
+	width: 250px;
+	height: 555px;
+	background: white;
+	position: relative;
+	left: 249px;top: 84px;
+}
+#GY_fuwu01{
+	height: 175px;
+}
+#GY_fuwu01 img{
+	position: relative;
+	left: 85px;top: 29px;
+}
+#GY_fuwu2{
+	width: 250px;
+	height: 555px;
+	background: white;
+	position: relative;
+	left: 543px;top: -471px;
+}	
+
+/*#fuwu03{
+	width: 145px;
+	height: 100px;
+	background:#F5804B;
+	position: relative;
+	left: 52px;top: 41px;	
+}*/
+#GY_fuwu3{
+	width: 250px;
+	height: 555px;
+	background: white;
+	position: relative;
+	left: 293px;top: -561px;
+}
