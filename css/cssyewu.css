@@ -1,5 +1,4 @@
-<<<<<<< HEAD:css/css.css
-=======
+
 
 *{
 	margin: 0;
@@ -15,20 +14,12 @@
 	padding: 0;
 }
 
->>>>>>> 4b3cabd4312d171f24f4b95e76b083f9fbcdb4e1:css/cssyewu.css
+
 #bigHead{
 	width: 100%;
 	height: 194px;
 }
-#BOSS{
-	
-}
 
-
-<<<<<<< HEAD:css/css.css
-
-=======
->>>>>>> 4b3cabd4312d171f24f4b95e76b083f9fbcdb4e1:css/cssyewu.css
 .header{
 	width: 100%;
 	height: 144px;
@@ -94,10 +85,6 @@
 }
 
 
-<<<<<<< HEAD:css/css.css
-
-=======
->>>>>>> 4b3cabd4312d171f24f4b95e76b083f9fbcdb4e1:css/cssyewu.css
 
 .header1{
 	width: 100%;
@@ -114,156 +101,27 @@
 }
 .header1-Son a{
 	text-decoration: none;
-<<<<<<< HEAD:css/css.css
-=======
 
->>>>>>> 4b3cabd4312d171f24f4b95e76b083f9fbcdb4e1:css/cssyewu.css
 	color: #333333;
 	margin-left: 75px;
 	line-height: 50px;
 	font-weight: 400;
-<<<<<<< HEAD:css/css.css
-=======
+
 
 	margin-left: 75px;
 	line-height: 50px;
 	font-weight: 400;
 	color: #333;
 
->>>>>>> 4b3cabd4312d171f24f4b95e76b083f9fbcdb4e1:css/cssyewu.css
+
 }
 .header1-Son a:hover{
 	color: orange;
 }
 
-<<<<<<< HEAD:css/css.css
-
-.yewu{
-	width: 444px;
-	height: 200px;
-margin-left: 28px;
-
-
+ul{
+	list-style: none;
 }
-.abiao{
-	color: #000000;
-	text-decoration: none;
-	font-size: 60px;
-	position: relative;
-		left:-26px ;
-		top:-12px;
-		font-family: "黑体";
-		font-weight: 900;
-}
-
-.img{
-	width: 30%;
-	margin: 50px 50px;
-}
-#guanyuGY{
-	width: 100%;
-	height: 954px;
-	background: #e3e3e3;
-	text-align: center;
-}
-#zuoce{
-	height: 531px;
-	width: 315px;
-	float: left;
-	font-size: 14px;
-	margin-left: 222px;
-	background: #FEFBF2;
-	text-align: center;
-}
-#youce{
-	width: 600px;
-	float: right;
-	margin-right: 206px;
-}
-#tuo{
-	width: 915px;
-	margin-left: 222px;
-	padding-left: 5px;
-}
-.kongbai{
-	height: 594px;
-}
-#tuo{
-	margin: 0 auto;
-}
-#zixun{
-	width:905px;
-	height: 900px;
-}
-.zixun{
-	width: 412px;
-	height: 320px;	
-	position: relative;
-	top: -333px;
-	left: -242px;
-	z-index: 2px;
-}
-.zhongxin{
-	width: 500px;
-	height: 340px;
-	float: right;
-	
-	background: #E3E3E3;
-}
-#xin{
-	width:493px ;
-	height: 100px;
-	background: floralwhite;
-	position: relative;
-	top: 115px;
-	text-align: center;
-}
-.zhongxin #xin span{
-	font-size: 22px;
-	font-family: "黑体";
-	}
-.zhongxin1{
-	width: 400px;
-	height: 300px;
-	margin-left: -500px;
-	margin-top: 83px;
-	background: #E3E3E3; 
-
-	
-}
-.zhongxin1 #xin{
-	width:268px ;
-	height: 86px;
-	background: floralwhite;
-
-	text-align: center;
-}
-.zhongxin1 #xin span{
-	font-size: 30px;
-	font-family: "黑体";
-	
-}
-.zhongxin2{
-	width: 482px;
-	height: 300px;
-	margin-left: -526px;
-	margin-top: -300px;
-	background: #E3E3E3;
-	float: right; 
-
-}
-.zhongxin2 #xin{
-	width:377px ;
-	height: 86px;
-	background: floralwhite;
-
-	text-align: center;
-}
-.zhongxin2 #xin span{
-	font-size: 30px;
-	font-family: "黑体";
-=======
-
 
 
 #huikuangzi a {
@@ -274,18 +132,26 @@ margin-left: 28px;
 	
 	color: #2c2a2b;
 	text-decoration:none ;
->>>>>>> 4b3cabd4312d171f24f4b95e76b083f9fbcdb4e1:css/cssyewu.css
 	
 }
-.riqi{
-	background: #464646;
-	color: #FFFFFF;
-	width: 75px;
-	height: 84px;
+
+
+#lb{
+	
+	width: 100%;
+	height: 746px;
+	background:url(../img/We_YW/We_YW_02.png) no-repeat;
+	
+	
+}
+#huikuangzi{
+	width: 950px;
+	height: 60px;
+	border-radius: 30px;
+	background: #fff;
+	
+	background: rgba(255,255,255,0.7);
 	position: relative;
-<<<<<<< HEAD:css/css.css
-	right: 341px;top: -350px;
-=======
 	top: 470px;
 	left: 360px;
 
@@ -293,9 +159,12 @@ margin-left: 28px;
 ul{
 	list-style: none;
 }
+a{
+	text-decoration:none ;
+	color: #000;
+}
 
-
-#huikuangzi div span{
+.quan2{
 	
 	height: 18px;
 	width: 18px;
@@ -307,7 +176,7 @@ ul{
 	
 	
 }
-#huikuangzi div:hover span{
+#huikuangzi div:hover .quan2{
 	border: 5px #f5804b solid;
 	opacity: 1.0;
 }
@@ -316,85 +185,139 @@ ul{
 	margin-left:85px ;
 	margin-top: 15px;
 }
+
 #ywzhongjian{
 	
-	margin-top:67px ;
-	width:1200px ;
-	height:1150px ;
-	margin: 0 auto;
-	
-} 
+	width: 1200px;
+	height: 1200px;
+	margin: auto;
+}
 #ywzhongjian1{
-	margin-top:67px ;
-	height: 100px;
-	font-size:18px ;
-	font-family: "微软雅黑";
-	font-weight:500 ;
-	
->>>>>>> 4b3cabd4312d171f24f4b95e76b083f9fbcdb4e1:css/cssyewu.css
-	
-}
-.riqi span{
- font-size: 20px;
-}
-.riqi1{
-	background: #464646;
-	color: #FFFFFF;
-	width: 75px;
-	height: 84px;
-	position: relative;
-	left: 70px;top: -434px;
-	
-}
-.riqi1 span{
- font-size: 20px;
-}
-.yewu1{
-	width: 385px;
-	height: 200px;
-margin-left: 28px;
-margin-top: -150px;
-
-}
-#dibu{
 	width: 100%;
-	height: 793px;
-	background:#E3E3E3 ;
+	height: 150px;
+	line-height: 150px;
+	font-size:20px ;
 }
-#yang{
-	width: 915px;
-	
-}
-
-.dibu2{
-	width: 915px;
-}
-.dibu3{
-	width: 465px;
-	
-	float: right;
-	position: relative;
-	top: 80px;
-}
-.dibu1{
-	width: 450px;
-	height: 247px;
-	background: white;
+#ywzhongjian2{
 	float: left;
+	width: 570px;
+	height: 460px;
+	background: url(../img/We_YW/We_YW_03.png);
+}
+#ywzhongjian3{
+	float: left;
+	width: 570px;
+	height: 460px;
+	margin-left: 54px;
+	background: url(../img/We_YW/We_YW_09.png);
+}
+#ywzhongjian4{
+	float: left;
+	width: 570px;
+	height: 460px;
+	margin-top: 54px;
+	background: url(../img/We_YW/We_YW_05.png);
+}
+#ywzhongjian5{
+	float: left;
+	width: 570px;
+	height: 460px;
+	margin-left: 54px;
+	margin-top: 54px;
+	background: url(../img/We_YW/We_YW_10.png);
+}
+.ywzjz1{
+	font-size: 28px;
+	font-weight: 800;
+	font-family: "微软雅黑";
+	height: 65px;
+	line-height: 80px;
+	
+}
+.ywzjz2{
+	font-size: 18px;
+	font-weight: 800;
+	font-family: "微软雅黑";
+	height: 65px;
+	line-height: 60px;
+}
+.ywzj{
+	width: 230px;
+	height: 130px;
+	background:rgba(255,255,255,0.5) ;
+	margin:200px auto ;
+	text-align: center;
+}
+.ywzj:hover .ywzjz1{
+	font-size: 28px;
+	font-weight: 800;
+	font-family: "微软雅黑";
+	height: 65px;
+	line-height: 80px;
+	color: #FD8C3D;
+	
+}
+.ywzj:hover .ywzjz2 a{
+	font-size: 18px;
+	font-weight: 800;
+	font-family: "微软雅黑";
+	height: 65px;
+	line-height: 60px;
+	color: #FD8C3D;
+}
+
+
+
+
+
+
+
+
+
+#ywxiamian{
+	width: 100%;
+    height: 250px;
+    background: #0D0D0D;	
+}
+.ywxiamian1{
+	font-size:18px ;
+	font-weight:900 ;
+	font-family: "微软雅黑";
+	color: #fff;
+	margin-top:10px ;
 	position: relative;
 	top: 80px;
-	box-shadow: 2px 2px 10px #333333;
+	left: 400px;
 }
-<<<<<<< HEAD:css/css.css
-.dibu4{
-	width: 450px;
-	height: 247px;
-	background: white;
+#ywxiamian2{
+	font-size:16px ;
+	font-weight:400 ;
+	font-family: "微软雅黑";
+	color: #fff;
 	position: relative;
-	left:-233px;top: 327px;
-=======
-#ywzj5:hover .ywzjz2 a{
-	color: #fd8c3d;
-
->>>>>>> 4b3cabd4312d171f24f4b95e76b083f9fbcdb4e1:css/cssyewu.css
+	left: 1200px;
+	width: 120px;
+	height: 30px;
+	border: 2px #fff solid;
+	line-height: 30px;
+	text-align: center;
+	
+}
+#ywxiamian3{
+	position: relative;
+	top: 15px;
+	left: 1200px;
+	
+	
+}
+#ywxiamian4{
+	font-size:16px ;
+	font-weight:400 ;
+	font-family: "微软雅黑";
+	color: #fff;
+	position: relative;
+	top: 15px;
+	left: 1200px;
+	
+	
 }
