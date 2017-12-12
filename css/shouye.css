@@ -234,7 +234,6 @@
 .kue{
 	width:220px;
 	height: 235px;
-	
 	background: rgba(255,255,255,0.5 ) ;
 	padding: 15px 0 0 30px;
 	margin: 100px auto;
@@ -600,4 +599,25 @@
 	width: 600px;
 	height: 600px;
 	float: right;
+}
+
+
+
+/*轮播*/
+#likuang{
+	height: 619px;
+	width: 7915px;
+	overflow: hidden;
+		
+}
+#likuang img{
+	float: left;
+	height: 619px;
+	width:1583px;	
+}
+#lunbo{
+	width:1583px;
+	height: 619px;
+	overflow: hidden;
+	
 }
