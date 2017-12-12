@@ -234,8 +234,8 @@
 .kue{
 	width:220px;
 	height: 235px;
-	background: #FFFFFF;
-	opacity: 0.8;
+	
+	background: rgba(255,255,255,0.5 ) ;
 	padding: 15px 0 0 30px;
 	margin: 100px auto;
 }
