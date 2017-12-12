@@ -5,14 +5,24 @@
 		<meta charset="UTF-8">
 		<title>共有家具</title>
 		<link rel="stylesheet" href="css/shouye.css" />
-		<script src="js/shouye.js" ></script>
+		<script src="js/shouye.js"></script>
 		<script src="js/jquery.js" charset="utf-8"></script>
+
+		<script type="text/javascript" src="js/ThreeCanvas.js"></script>
+		<script type="text/javascript" src="js/Snow.js"></script>
+
+		<script type="text/javascript" src="js/hongbaoyu.js"></script>
+		<script type="text/javascript">
+			function rnd(n, m) {
+				return Math.floor(Math.random() * (m - n + 1) + n)
+			}
+		</script>
 	</head>
 
-	<body >
+	<body bgcolor="#eae0d9" id="body" onLoad="init()">
 		<div id="BOSS">
 
-         <!--头部-->
+			<!--头部-->
 
 			<div id="bigHead">
 				<div class="header">
@@ -44,227 +54,222 @@
 					</div>
 				</div>
 			</div>
-			
-			
-			
-		<!--轮播-->	
+
+			<!--轮播-->
 			<div id="lunbo">
 				<div id="likuang">
-<<<<<<< HEAD
-				<img src="img/SY/SY_16.png" width="100%" />
-			
-=======
-				<img src="img/SY/SY_16.png"  />
-				<img src="img/CanTing/GY_CanYi_02.png"  />
-				<img src="img/LianXi/SanJi_LianXi_02.png"  />
-				<img src="img/ShaFa/KeTing_ShaFa_03.png"  />
-				<img src="img/SY/SY_16.png"  />
->>>>>>> fb71a67a210880844fd3cdd7095af88d1e3b4534
+
+					<img src="img/SY/SY_16.png" width="100%" />
+
+					<img src="img/SY/SY_16.png" />
+					<img src="img/CanTing/GY_CanYi_02.png" />
+					<img src="img/LianXi/SanJi_LianXi_02.png" />
+					<img src="img/ShaFa/KeTing_ShaFa_03.png" />
+					<img src="img/SY/SY_16.png" />
+
 				</div>
 			</div>
-			
-			
-		<!--我们的业务-->	
+
+			<!--我们的业务-->
 			<div id="yewu">
-				<span  id="span1">OURBUSINESS</span><br />
-				
-				<span  id="span2">我们的业务</span>
-			
-			<div id="tu1">
-				<div id="img1">
-					<div class="kue">					
-						<span class="kue-span1">卫浴</span><br />
-						<span class="kue-span2">共友卫浴专注为消费者提供时尚、健康、舒适的一体化定制卫浴解决方案</span>
-						<hr style="width: 70px;" />
-						<span class="kue-span3">查看更多</span>
-						<span class="kue-span4">商城购买</span>	
+				<span id="span1">OURBUSINESS</span><br />
+
+				<span id="span2">我们的业务</span>
+
+				<div id="tu1">
+					<div id="img1">
+						<div class="kue">
+							<span class="kue-span1">卫浴</span><br />
+							<span class="kue-span2">共友卫浴专注为消费者提供时尚、健康、舒适的一体化定制卫浴解决方案</span>
+							<hr style="width: 70px;" />
+							<span class="kue-span3">查看更多</span>
+							<span class="kue-span4">商城购买</span>
+						</div>
 					</div>
-				</div>
-				<div id="img2">
-					<div class="kue">					
-						<span class="kue-span1">橱柜</span><br />
-						<span id="kue-span3">共友橱柜是中国橱柜标准制定者，连续十一年蝉联全国橱柜行业会长单位，出口全球118个国家</span>
-						<hr style="width: 70px;" />
-						<span class="kue-span3">查看更多</span>
-						<span class="kue-span4">商城购买</span>	
+					<div id="img2">
+						<div class="kue">
+							<span class="kue-span1">橱柜</span><br />
+							<span id="kue-span3">共友橱柜是中国橱柜标准制定者，连续十一年蝉联全国橱柜行业会长单位，出口全球118个国家</span>
+							<hr style="width: 70px;" />
+							<span class="kue-span3">查看更多</span>
+							<span class="kue-span4">商城购买</span>
+						</div>
 					</div>
-				</div>
-				<div id="img3">
-					<div class="kue">					
-						<span class="kue-span1">隔断柜</span><br />
-						<span class="kue-span2">共隔断柜，中国全屋定制领域的领跑品牌，产能每年73万套，出口118个国家</span>
-						<hr style="width: 70px;" />
-						<span class="kue-span3">查看更多</span>
-						<span class="kue-span4">商城购买</span>	
+					<div id="img3">
+						<div class="kue">
+							<span class="kue-span1">隔断柜</span><br />
+							<span class="kue-span2">共隔断柜，中国全屋定制领域的领跑品牌，产能每年73万套，出口118个国家</span>
+							<hr style="width: 70px;" />
+							<span class="kue-span3">查看更多</span>
+							<span class="kue-span4">商城购买</span>
+						</div>
 					</div>
-				</div>
-				<div id="img4">
-					<div class="kue">					
-						<span class="kue-span1">电器</span><br />
-						<span class="kue-span2">共友电器，坚持“厨电一体化”理念，打造更加完美的整体厨房配套解决方案</span>
-						<hr style="width: 70px;" />
-						<span class="kue-span3">查看更多</span>
-						<span class="kue-span4">商城购买</span>	
+					<div id="img4">
+						<div class="kue">
+							<span class="kue-span1">电器</span><br />
+							<span class="kue-span2">共友电器，坚持“厨电一体化”理念，打造更加完美的整体厨房配套解决方案</span>
+							<hr style="width: 70px;" />
+							<span class="kue-span3">查看更多</span>
+							<span class="kue-span4">商城购买</span>
+						</div>
 					</div>
+
 				</div>
-				
+
 			</div>
-			
-			</div>
-			
-		<!--关于共有-->	
+
+			<!--关于共有-->
 			<div id="guanyu">
-				
+
 				<span id="span3">NEWSCENTER</span>
 				<span id="span4">关于共有</span>
-			
-			<div id="guanyuneirong" >
-				<div id="neirong">
-					
-				
-				<div id="zuo1">
-					<span class="zuo1-One">CY  ARSTRACT</span>
-				    <span class="zuo1-Two">共有简介</span><br />
-					
-					<span class="zuo1-Three">共友致力于改变每一个家庭为每一个家庭定制打造独一无二的家，让更多的家庭享受高品质生活，提高国人审美为目标，我们的每一款产品都为满足个人生活需求而打造。
-					</span>	
-					
-				</div>
 
-				<div id="you1">
-					<img src="img/SY/SY_32.png" />
-				</div>
-			
-				<div id="xia1">
-					
-					<img src="img/SY/SY_36.png" />
-					 
-					<img src="img/SY/SY_38.png" style="margin-left:100px ;" />
-				</div>
+				<div id="guanyuneirong">
+					<div id="neirong">
 
-			    </div>
-			    </div>
+						<div id="zuo1">
+							<span class="zuo1-One">CY  ARSTRACT</span>
+							<span class="zuo1-Two">共有简介</span><br />
+
+							<span class="zuo1-Three">共友致力于改变每一个家庭为每一个家庭定制打造独一无二的家，让更多的家庭享受高品质生活，提高国人审美为目标，我们的每一款产品都为满足个人生活需求而打造。
+					</span>
+
+						</div>
+
+						<div id="you1">
+							<img src="img/SY/SY_32.png" />
+						</div>
+
+						<div id="xia1">
+
+							<img src="img/SY/SY_36.png" />
+
+							<img src="img/SY/SY_38.png" style="margin-left:100px ;" />
+						</div>
+
+					</div>
+				</div>
 			</div>
-         
-         
-        <!--咨询中心--> 
-         
-         <div id="zixun">
+
+			<!--咨询中心-->
+
+			<div id="zixun">
 				<span id="span5">NEWS CENTER</span>
 				<span id="span6">咨询中心</span>
-				
-			<div id="zixunneirong" >	
-				
-					
-						<div id="zuo2">
-						        <img src="img/SY/SY_43.png" height="300px" width="500px"/>
-					    </div>
-						<div id="you2">
-							<div class="you2-One">
-								<span class="you2-One1">共友家具隆重上市，缔造家具帝国新版图</span><br />
-								<span class="you2-One2">共友家居于2月16日在深圳证券交易所挂牌上市</span>
-							</div>	
-						
+
+				<div id="zixunneirong">
+
+					<div id="zuo2">
+						<img src="img/SY/SY_43.png" height="300px" width="500px" />
+					</div>
+					<div id="you2">
+						<div class="you2-One">
+							<span class="you2-One1">共友家具隆重上市，缔造家具帝国新版图</span><br />
+							<span class="you2-One2">共友家居于2月16日在深圳证券交易所挂牌上市</span>
 						</div>
-						
-					    <div id="zuo3">
-					    	
-							     
-							     <div class="zuo3-One">
-							     	<span class="zuo3-One1">共友家具上市</span><br />
-							     <span class="zuo3-One2">查看详情>></span>
-							     </div>
-							     
-							<div id="riqi">
-						          <span>02-16</span><br />
-						          <span style="font-size:13px ;" > &nbsp;&nbsp;&nbsp;2017</span>
-					        </div>
+
+					</div>
+
+					<div id="zuo3">
+
+						<div class="zuo3-One">
+							<span class="zuo3-One1">共友家具上市</span><br />
+							<span class="zuo3-One2">查看详情>></span>
 						</div>
-					    <div id="you3">
-							<div class="zuo3-One">
-							    <span class="zuo3-One1">共有家居:经济破与立</span><br />
-							    <span class="zuo3-One2">查看详情>></span>
-							</div>    
-							<div id="riqi1">
-						        <span>05-11</span>
-						        <span style="font-size:13px ;" > &nbsp;&nbsp;&nbsp;2017</span>  
-					        </div>
-							
-							
+
+						<div id="riqi">
+							<span>02-16</span><br />
+							<span style="font-size:13px ;"> &nbsp;&nbsp;&nbsp;2017</span>
 						</div>
-					
-			</div>		
-		</div>		
-		<!--加入共有-->	
-			
+					</div>
+					<div id="you3">
+						<div class="zuo3-One">
+							<span class="zuo3-One1">共有家居:经济破与立</span><br />
+							<span class="zuo3-One2">查看详情>></span>
+						</div>
+						<div id="riqi1">
+							<span>05-11</span>
+							<span style="font-size:13px ;"> &nbsp;&nbsp;&nbsp;2017</span>
+						</div>
+
+					</div>
+
+				</div>
+			</div>
+			<!--加入共有-->
+
 			<div id="jiaru">
-				
+
 				<span id="span7">JOIN USGY</span>
 				<span id="span8">加入共友</span>
-				
+
 				<div id="jiaruneirong">
 					<div class="bigBox">
 						<div id="zuo6">
-					    <div id="zuo4">
-					    	<span class="zuo4-span1">我们在招商</span><br />
-					    	<hr style="height: 0; border: dashed; border-width: 0.5px; border; margin: 10px 0;"  />
-					    	<span class="zuo4-span2">选择大于努力,选择与冠军同行,每一步您都会走在别人之前.我们欢迎把工作当做事业来做的经销商,一起分享我们的成功!
+							<div id="zuo4">
+								<span class="zuo4-span1">我们在招商</span><br />
+								<hr style="height: 0; border: dashed; border-width: 0.5px; border; margin: 10px 0;" />
+								<span class="zuo4-span2">选择大于努力,选择与冠军同行,每一步您都会走在别人之前.我们欢迎把工作当做事业来做的经销商,一起分享我们的成功!
 					    	</span>
-					    </div>
-					    
-					    <div id="zuo5">
-					    	<span class="zuo4-span1">成为供应商</span><br />
-					    	<hr style="height: 0; border: dashed; border-width: 0.5px; border; margin: 10px 0;"  />
-					    	<span class="zuo4-span2">我们相信,一个更好的产品,一条更好的创意,需要一个更好的伙伴,一起为顾客创造更多的价值,让跟多的顾客选择我们的产品,欢迎您成为我们的供应商!
+							</div>
+
+							<div id="zuo5">
+								<span class="zuo4-span1">成为供应商</span><br />
+								<hr style="height: 0; border: dashed; border-width: 0.5px; border; margin: 10px 0;" />
+								<span class="zuo4-span2">我们相信,一个更好的产品,一条更好的创意,需要一个更好的伙伴,一起为顾客创造更多的价值,让跟多的顾客选择我们的产品,欢迎您成为我们的供应商!
 					    	</span>
-					    </div>
-					    </div>
-					    
-					     <div id="you4">
-				    	<img src="img/SY/SY_46.png" width="600px"/>
-				    	
-				    </div>
-				    </div>
-				   
-					
-					
+							</div>
+						</div>
+
+						<div id="you4">
+							<img src="img/SY/SY_46.png" width="600px" />
+
+						</div>
+					</div>
+
 				</div>
-				
+
 			</div>
-			
-		<div id="bottom">
-					<div class="bottomZ">
-						<div class="bottomZ1">
+
+			<div id="bottom">
+				<div class="bottomZ">
+					<div class="bottomZ1">
 						<span id="bottomZ3">
 				        	<div class="bottomZ1-Left">地址：山西省太原市南内环长治路恒地大厦26层</div>
 				        	<div class="bottomZ1-Left">电话：288-666-8888</div>
 				        	<div class="bottomZ1-Left">www.shanxihddsgongyoujit</div>
 				        </span>
-				        <div class="bottomZ2">
-				        	<div class="bottomZ2-Kf">在线客服</div>
-				        	<div class="bottomZ2-Wl">
-				        		<span>
+						<div class="bottomZ2">
+							<div class="bottomZ2-Kf">在线客服</div>
+							<div class="bottomZ2-Wl">
+								<span>
 				        			<dt><img src="img/SY/SY_50.png"/></dt>
 				        			<dd>QQ</dd>
 				        		</span>
-				        		<span>
+								<span>
 				        				<dt><img src="img/SY/SY_50.png"/></dt>
 				        				<dd>微信</dd>
 				        			</span>
-				        		<span>
+								<span>
 				        				<dt><img src="img/SY/SY_52.png"/></dt>
 				        				<dd>分享</dd>
 				        			</span>
-				        	</div>
+							</div>
 						</div>
-		        		</div>
 					</div>
-				</div>	
+				</div>
+			</div>
+
+		</div>
 		
-		
+		 </div>
+	 
+		<div bgcolor="#000000" id="bb" onLoad="init()" style="width: 100%; height: 5861px; position: absolute; top: 0px;">
 			
 			
-</div>
+			
+		</div>
+			
 	</body>
 
 </html>
